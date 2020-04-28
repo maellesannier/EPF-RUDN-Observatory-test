@@ -62,13 +62,15 @@ STEPS:
 * The buffers are united and erased from the 3 principal layers 
   (luminous pollution, altitude, cloudiness) of the study.
   ![buffers erased from layers](Layers_with_Erased_buffers.png)
-* The 3 layers are summed with coefficients entered by the user in an arithmetic
-  layer
-* The user choose how much percentage of this layer he wants to keep.
+* The 3 layers are normalized from 0 to 100 and then summed with coefficients entered by 
+  the user in an arithmetic layer
+* The user choose how much percentage of this layer he wants to keep. It means
+  the best pixels will be extract in another layer (the pixels that will have the higher 
+  values --> the best places in France relatively to our criteria)
 * This percentage is intersected with the frenchville (french cities)
   layer database.
 * As a result the user will have one or a list of cities/villages, satisfying 
-  its criterion and able to host this new astronomical observatories.
+  its criteria and that is able to host this new astronomical observatories.
 
 
 QUICK VISUALIZATION:
