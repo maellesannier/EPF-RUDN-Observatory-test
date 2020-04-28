@@ -8,7 +8,7 @@ VERSION 1:
   of Spring 2020, an international collaboration between two universities,
   EPF of Sceaux, France and RUDN of Moscow, Russia.
 * EPF : https://www.epf.fr/
-* RUDN : https://www.rudn.ru
+* RUDN : http://www.rudn.ru
 * Author : Maelle Sannier, EPF engineering student in 4th year, 
   Aeronautics and Space major
 * Instructor : Naci Dilekli, RUDN Professor, https://github.com/ndilekli/
